@@ -1,0 +1,6 @@
+URL: http://192.168.10.204:8080/view/main.html
+children:
+ - name: Jimmy Smith
+   age: 15
+ - name1: Jenny Smith
+   age1: 12

@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://192.168.10.202:8080/" />
+<title>测试不经过总部审批</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">测试不经过总部审批</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/view/main.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=贷前管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=资信管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_26</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=launchedCredit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeZhong</td>
+	<td>zhong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeName</td>
+	<td>name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeMobie</td>
+	<td>mobie</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeShenfen</td>
+	<td>shenfen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=customerName</td>
+	<td>${name}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=relavants[0].fullName</td>
+	<td>${name}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=cardType</td>
+	<td>label=身份证</td>
+</tr>
+<tr>
+	<td>storeRandom</td>
+	<td>random</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=cardNo</td>
+	<td>${shenfen}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=relavants[0].cardId</td>
+	<td>${shenfen}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=estimateLoanAmount</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=bankDeraler</td>
+	<td>label=工行安徽城建支行</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=maritalStatus</td>
+	<td>label=已婚</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=relavants[0].mobile</td>
+	<td>${mobie}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.hide</td>
+	<td>C:\Users\mxj\Desktop\错误捕捉1\timg：1.jpg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.hide</td>
+	<td>C:\Users\mxj\Desktop\错误捕捉1\3205221987120680271[1].jpg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.hide</td>
+	<td>C:\Users\mxj\Desktop\错误捕捉1\151029110134718[1].jpg</td>
+</tr>
+<tr>
+	<td>storeName</td>
+	<td>name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeMobie</td>
+	<td>mobie</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeShenfen</td>
+	<td>shenfen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=relavants[1].fullName</td>
+	<td>${name}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=cardType</td>
+	<td>label=身份证</td>
+</tr>
+<tr>
+	<td>storeRandom</td>
+	<td>random</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=relavants[1].cardId</td>
+	<td>${shenfen}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=estimateLoanAmount</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=bankDeraler</td>
+	<td>label=工行安徽城建支行</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=relavants[1].mobile</td>
+	<td>${mobie}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#task &gt; div.modal-dialog.modal-lg &gt; div.modal-content &gt; div.modal-header &gt; button.close</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='btSelectItem'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='task']/div/div/div[3]/div/button[1])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.nav-label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li &gt; a.J_menuItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ftCode</td>
+	<td>label=征信流程</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;CREDIT_FLOW&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=征信录入</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=征信录入</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.datetimepicker-days &gt; table..table-condensed &gt; tfoot &gt; tr &gt; th.today</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=relavants[0].checkResult</td>
+	<td>label=通过</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(.//*[@id='wife']/div/div[2]/div[3]/div[2]/fieldset/div[1]/div[3]/div/input)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(html/body/div[8]/div[3]/table/tfoot/tr/th)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=relavants[1].checkResult</td>
+	<td>label=通过</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='relavants[0].loanRepayment'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='relavants[1].loanRepayment'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li &gt; a.J_menuItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ftCode</td>
+	<td>label=征信流程</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;CREDIT_FLOW&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=征信接受</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=征信接受</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=贷前管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=贷款评审</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sure</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=product</td>
+	<td>label=信用卡贷款(普通模式)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=productId</td>
+	<td>label=普通模式-36期(河南、陕西)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=isDiscount2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='isDidi'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=carProvince</td>
+	<td>label=河北省</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;130000&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=carCity</td>
+	<td>label=保定市</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=getBrand</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='normal_cars']/div/div/ul/div/li[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=getCarList</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='normal_cars']/div[2]/div/ul/li/ul/li</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=getCarModel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='normal_cars']/div[3]/div/ul/li/p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='normal_cars']/div[3]/div/ul/li/ul/li[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='isImported'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=carDealer</td>
+	<td>label=奥拓</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=billingPrice</td>
+	<td>100000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=billingPrice</td>
+	<td>100000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=loanAmount</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=repaymentAmount</td>
+	<td>900</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=city</td>
+	<td>label=宝鸡市</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;610300&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=area</td>
+	<td>label=陇县</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=address</td>
+	<td>宝鸡市政府</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.BMap_contextMenu &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=visitAddressItude</td>
+	<td>156.181</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=freeDoor</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=preservation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=客户评分卡A</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='driverLicence'])[2]</td>
+	<td>label=父母/子女有驾照</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='education'])[2]</td>
+	<td>label=大专</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@id='housingStatus'])[2]</td>
+	<td>label=父母住房</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=profession_Code</td>
+	<td>label=公务员</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='reservedFundsYear'])[3]</td>
+	<td>label=无</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='industry'])[2]</td>
+	<td>label=房地产行业</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='socialYear'])[3]</td>
+	<td>label=1年以内</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn_saveScoreCard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=贷款信息</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='userId'])[9]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='task']/div/div/div[3]/div/button[1])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'我的任务')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=ftCode</td>
+	<td>label=贷款申请流程</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;LOAN_APPLY_FLOW&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=签单分配</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=签单分配</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=mainSignSelect</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='table_sign_main']/tbody/tr[28]/td[1]/a)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-opinion-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'我的任务')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=签单调查</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=签单调查</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=影像管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=上传文件</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=tree_4_span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=upImage</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=upImageInput</td>
+	<td>C:\Users\mxj\Desktop\错误捕捉1\捕获3.PNG</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=upload</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-opinion-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='table_sign']/tbody/tr[7]/td[1]/input)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=select-sign-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'我的任务')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=业务录入</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=业务录入</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=文档传递管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=文档传递</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_33</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=发起文档传递</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.badge</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sub</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='userId'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=select-sign-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=birthday</td>
+	<td>1993-11-10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=age</td>
+	<td>26</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=cardNoValid</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=licenceIssuingAuthority</td>
+	<td>海曙公安</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=homePhone</td>
+	<td>4115263</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=post</td>
+	<td>label=科员及职员</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=workNatureCode</td>
+	<td>label=股份合作</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=monthlyIncome</td>
+	<td>label=10000-14999</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=yearlyIncome</td>
+	<td>15</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=reservedFunds</td>
+	<td>label=501-1000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyName</td>
+	<td>杉杉大厦</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyPhone</td>
+	<td>4118652</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=employTime</td>
+	<td>2016-04-14</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=province_2</td>
+	<td>label=河北省</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;130000&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=city_2</td>
+	<td>label=秦皇岛市</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option[value=&quot;130300&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=area_2</td>
+	<td>label=北戴河区</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyAddressDetail</td>
+	<td>秦皇岛</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=province_1</td>
+	<td>label=河北省</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#province_1 &gt; option[value=&quot;130000&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=city_1</td>
+	<td>label=秦皇岛市</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#city_1 &gt; option[value=&quot;130300&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=area_1</td>
+	<td>label=北戴河区</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=homeAddressDetail</td>
+	<td>秦皇岛</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=curAddressTime</td>
+	<td>2016-08-10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-baseInfo-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=新增联系人</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=emergencyContact</td>
+	<td>梦娜</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=relationship</td>
+	<td>label=姐妹</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='mobilePhone'])[2]</td>
+	<td>13256894712</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-contacter-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=新增联系人</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=emergencyContact</td>
+	<td>瓦特</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=relationship</td>
+	<td>label=朋友</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='mobilePhone'])[2]</td>
+	<td>15784541247</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-contacter-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spousePermantAddress</td>
+	<td>浙江省宁波市</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=spouseMonthlyIncome</td>
+	<td>label=5000-9999</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spouseCompanyName</td>
+	<td>浙江省宁波市鄞州区杉杉大厦</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spouseCompanyPhone</td>
+	<td>4251475</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=province_3</td>
+	<td>label=河北省</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=city_3</td>
+	<td>label=石家庄市</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=area_3</td>
+	<td>label=长安区</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=spouseCompanyAddress</td>
+	<td>河北石家庄</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=spouseReservedFundsYear</td>
+	<td>label=1年以内</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=spouseReservedFunds</td>
+	<td>label=1001-1500</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=spouseSocialYear</td>
+	<td>label=1年以内</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=domicileType</td>
+	<td>label=非农</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-baseInfo-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=预算单</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=isPublicLicense</td>
+	<td>label=否</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=select[name=&quot;isPublicLicense&quot;] &gt; option[value=&quot;2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=paymentMethod</td>
+	<td>label=差额打款</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=select[name=&quot;paymentMethod&quot;] &gt; option[value=&quot;2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=costType</td>
+	<td>label=公司</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=select[name=&quot;costType&quot;] &gt; option[value=&quot;1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=deliveryMethod</td>
+	<td>label=现金</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=select[name=&quot;deliveryMethod&quot;] &gt; option[value=&quot;1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=paymentLevel</td>
+	<td>label=一般</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=select[name=&quot;paymentLevel&quot;] &gt; option[value=&quot;1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=collectedAmount</td>
+	<td>10000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[12]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=insuranceCompanyId</td>
+	<td>label=中国大地财产保险股份有限公司</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='budget']/div/div/div/div/div/div[2]/button)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-opinion-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='userId'])[10]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=select-sign-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'我的任务')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=初级审核</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=初级审核</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=影像管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=tree_4_span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;捕获3.PNG&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='thumbnail']/div[3]/div[4])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-opinion-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='userId'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=select-sign-btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'我的任务')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>iframe_21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=flowNode</td>
+	<td>label=中级审核</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=中级审核</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=btSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=iframe_undefined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=影像管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=tree_4_span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='documentList']/div/div/div/div[1]/img)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='thumbnail']/div[3]/div[4])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btn-opinion-save</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sureOption</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='userId'])[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@id='select-sign-btn'])</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

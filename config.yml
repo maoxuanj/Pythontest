@@ -1,0 +1,7 @@
+URL: http://192.168.10.204:8080/view/main.html
+log:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: ERROR
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
